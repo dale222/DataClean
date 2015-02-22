@@ -1,7 +1,7 @@
 # DataClean
 The run_analysis.R script takes the Human Activity Recognition Using Smartphones Data Set and provides a tidy dataset for analysis. The dataset must be downloaded and unzipped into your R working directory. The dataset can be downloaded from the following URL https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The reshape2 package must be installed.
 
-The run_analysis.R script merges the training and the test sets to create one data set. Then it extracts only the measurements on the mean and standard deviation for each measurement and uses descriptive activity names to name the activities in the data set and appropriately labels the data set with descriptive variable names. It finally creates a second, independent tidy data set with the average of each variable for each activity and each subject and outputs the file.
+The run_analysis.R script merges the training and the test sets to create one data set. Then it extracts only the measurements on the mean and standard deviation for each measurement and uses descriptive activity names to name the activities in the data set and appropriately labels the data set with descriptive variable names. It finally creates a second, independent tidy data set with the average of each variable for each activity and each subject and outputs the tidy_data.txt file.
 
 The original dataset included the following data files:
 features.txt: List of all features.
@@ -23,10 +23,3 @@ DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
 Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
 activityrecognition '@' smartlab.ws
-
-
- the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
